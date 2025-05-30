@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Página sobre lo último en tecnología, innovación y gadgets" />
+  <title>TecnoMundo - Tu fuente de innovación</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background-color: #1e293b;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #60a5fa;
+    }
+    .main-content {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #0f172a;
+    }
+    .card p {
+      line-height: 1.5;
+    }
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>TecnoMundo</h1>
+    <p>Tu fuente de innovación, gadgets y avances tecnológicos</p>
+  </header>
+
+  <nav>
+    <a href="#noticias">Noticias</a>
+    <a href="#gadgets">Gadgets</a>
+    <a href="#reviews">Reseñas</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section class="main-content">
+    <div class="card" id="noticias">
+      <h3>Últimas noticias</h3>
+      <p>Apple lanza un nuevo dispositivo con IA integrada para revolucionar el mercado. Google anuncia avances en computación cuántica.</p>
+    </div>
+
+    <div class="card" id="gadgets">
+      <h3>Top gadgets 2025</h3>
+      <p>Explora los mejores gadgets del año: auriculares inteligentes, relojes con sensores de salud avanzados y asistentes personales con IA.</p>
+    </div>
+
+    <div class="card" id="reviews">
+      <h3>Reseñas de expertos</h3>
+      <p>Probamos el nuevo Samsung Galaxy Z Fold6 y te contamos todo: rendimiento, batería, cámara y si vale la pena su precio.</p>
+    </div>
+
+    <div class="card" id="contacto">
+      <h3>Contacto</h3>
+      <p>¿Tienes alguna sugerencia o quieres colaborar con nosotros? Escríbenos a contacto@tecnomundo.com</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 TecnoMundo. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
